@@ -1,0 +1,39 @@
+{
+  "name": "vue-background",
+  "version": "1.0.0",
+  "description": "Vue Background",
+  "private": false,
+  "author": {
+    "name": "Iman Malekian",
+    "email": "imanmalekian31@gmail.com"
+  },
+  "main": "dist/bg-directive.min.js",
+  "type": "module",
+  "license": "MIT",
+  "repository": "https://github.com/imanmalekian31/vue-background",
+  "bugs": "https://github.com/imanmalekian31/vue-background/issues",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "vue",
+    "directive",
+    "background",
+    "vue-background",
+    "tailwind",
+    "color"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.1",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@vue/compiler-sfc": "^3.3.4",
+    "rollup": "^3.24.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
